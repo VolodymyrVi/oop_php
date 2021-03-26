@@ -3,13 +3,17 @@
 class Car
 {
     public $color;
-    public $wheels =4;
+    public $wheels = 4;
     public $speed = 180;
     public $brand;
 
-
-    // since PHP 5.6
-    public $path = __DIR__ . '/test';
-    public $test = 1 + 2;
-
+    public function getCarInfo()
+    {
+        return "<h3>About my car:</h3>
+        Brand car: {$this->brand} <br>
+        Color car: {$this->color}<br>
+        Wheels car:{$this->wheels} <br>
+        Year car: {$this->year}<br>
+        Speed car: {$this->speed}<br>";
+    }
 }
