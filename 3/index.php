@@ -12,4 +12,10 @@ $car1 = new Car();
 $car1->color = 'black';
 $car1->brand = "volvo";
 
+
+$car2 = new Car();
+$car2->color = 'red';
+$car2->brand = "bmw";
+
 echo $car1->getCarInfo();
+echo $car2->getCarInfo();
