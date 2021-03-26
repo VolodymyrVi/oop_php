@@ -12,3 +12,4 @@ $car1 = new Car();
 $car1->color = 'black';
 $car1->brand = "volvo";
 
+echo $car1->getCarInfo();

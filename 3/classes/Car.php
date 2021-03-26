@@ -13,7 +13,6 @@ class Car
         Brand car: {$this->brand} <br>
         Color car: {$this->color}<br>
         Wheels car:{$this->wheels} <br>
-        Year car: {$this->year}<br>
         Speed car: {$this->speed}<br>";
     }
 }
