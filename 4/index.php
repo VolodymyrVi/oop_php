@@ -8,14 +8,10 @@ function debug($data)
     echo '<pre>' . print_r($data, 1) . '</pre>';
 }
 
-$car1 = new Car();
-$car1->color = 'black';
-$car1->brand = "volvo";
+$car1 = new Car('black', 4, 180, 'volvo');
 
+$car2 = new Car('red', 4, 200, 'bmw');
 
-$car2 = new Car();
-$car2->color = 'red';
-$car2->brand = "bmw";
 
 echo $car1->getCarInfo();
 echo $car2->getCarInfo();
